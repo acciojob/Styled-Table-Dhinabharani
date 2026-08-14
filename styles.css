@@ -1,12 +1,25 @@
-/* your code */
 #table{
-    border: 1px solid black;
-border-radius:10px;
-
+	border-collapse:separate;
+    border:1px solid #DDDDDD;
+    border-spacing:0px;
+	border-radius:8px;
+	overflow:hidden;
+	width:500px;
 }
 #headtable{
-    background-color: #215A8E;
-    color: white;
-	text-align:left;
+	background-color:steelblue;
+	color:white;
+}
 
+th,td{
+	padding:10px;
+}
+tr:nth-child(odd){
+	background-color:#f2f2f2;
+}
+tr:nth-child(even){
+	background-color:#ffff;
+}
+td{
+	text-align:center;
 }
